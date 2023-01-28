@@ -1,0 +1,44 @@
+.header-forsmi{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.header-forsmi p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 98vw;
+}
+
+.title-forsmi{
+    font-size: 17px;
+    color: #FED463;
+    font-weight: bold;
+    max-width: 98vw;
+}
+.desc-forSmi{
+    font-size: 15px;
+    padding: 15px 0 30px 0;
+    color: white;
+    font-weight: normal;
+    max-width: 80vw;
+}
+.padding {
+    padding-bottom: 15px;
+}
+.all{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.padding2{
+    padding-bottom: 30px;
+}

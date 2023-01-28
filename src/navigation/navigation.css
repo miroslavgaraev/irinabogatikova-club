@@ -1,0 +1,119 @@
+
+.navigation-image{
+    width: 20vw;
+    padding-top: 20px;
+
+}
+.links a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+}
+.a-aboutclub{
+    padding-bottom: 1vw;
+}
+.aboutclub{
+    padding-bottom: 1vw;
+}
+.level2 a{
+    font-size: 1.5vw;
+}
+.navigation{
+    width: 30vw;
+    background-color: #141426;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    animation-duration: 0.5s;
+    z-index: 200;
+}
+.menu button{
+    color: #FED463;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 10px;
+    border: none;
+    font-size: 2vw;
+    width: 10vw;
+}
+.navigation button{
+    color: #FED463;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 2vw;
+    width: 10vw;
+    padding-top: 5px;
+}
+.menu{
+    position: fixed;
+    animation-duration: 0.5s;
+    z-index: 200;
+}
+a:hover{
+    color: #FED463;
+}
+a:active{
+    color: #FED463;
+}
+
+@keyframes nav-back {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-30vw)}
+}
+@keyframes nav-return {
+    0% {transform: translateX(-30vw)}
+    100% {transform: translateX(0)}
+}
+@keyframes button-back {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-10vw)}
+}
+@keyframes button-return {
+    0% {transform: translateX(-30vw)}
+    100% {transform: translateX(0)}
+}
+
+@media (max-width: 1010px) {
+    .menu button{
+        font-size: 4vw;
+        width: 20vw;
+    }
+    .level2 a{
+        font-size: 3vw;
+    }
+    .links a{
+        font-size: 4vw;
+    }
+    .navigation{
+        width: 60vw;
+    }
+    .navigation-image{
+        width: 40vw;
+    }
+    .navigation button{
+        font-size: 6vw;
+        width: 25vw;
+    }
+
+    @keyframes nav-back {
+        0% {transform: translateX(0)}
+        100% {transform: translateX(-60vw)}
+    }
+    @keyframes nav-return {
+        0% {transform: translateX(-60vw)}
+        100% {transform: translateX(0)}
+    }
+    @keyframes button-back {
+        0% {transform: translateX(0)}
+        100% {transform: translateX(-20vw)}
+    }
+    @keyframes button-return {
+        0% {transform: translateX(-60vw)}
+        100% {transform: translateX(0)}
+    }
+}

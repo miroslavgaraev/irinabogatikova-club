@@ -1,0 +1,36 @@
+@keyframes moveContent {
+    0%{
+        transform: translateY(-100%);
+    }
+}
+@keyframes moveContent2 {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes moveContent3 {
+    0%{
+        transform: translateX(100%);
+    }
+}
+@keyframes opacityy {
+    0%{
+        opacity: 0;
+    }
+}
+.animation{
+    animation-duration: 1s;
+    animation-name: moveContent;
+}
+.animation2{
+    animation-duration: 1s;
+    animation-name: moveContent2;
+}
+.animation3{
+    animation-duration: 1s;
+    animation-name: moveContent3;
+}
+.opacity{
+    animation-duration: 1s;
+    animation-name: opacityy;
+}
