@@ -44,6 +44,8 @@ import ForSmi from "./forSmi/forSmi";
 import CompaniesGroup from "./compamiesGroup/compamiesGroup";
 import Contacts from "./Contacts/contacts";
 import AboutSite from "./about-site/about-site";
+import Arctica from './art-design/arctica/arctica';
+import Spb from './art-design/SPB/Spb';
 
 function App() {
     window.onload = function () {
@@ -73,6 +75,8 @@ function App() {
 
             <Route path={'/ArtDesign/ArtMiami'} element={<MiamiPage/>}></Route>
             <Route path={'/ArtDesign/ZHKMarshala'} element={<ZhkPage/>}></Route>
+            <Route path={'/ArtDesign/Arctica'} element={<Arctica/>}></Route>
+            <Route path={'/ArtDesign/SPB'} element={<Spb/>}></Route>
 
 
             <Route path={'/Architecture/Alcove'} element={<Alcove/>}></Route>
@@ -107,6 +111,7 @@ function App() {
             <Route path={'/Decor/AlleyStars'} element={<AlleyaZvezd/>}></Route>
             <Route path={'/Decor/Scene'} element={<Scena/>}></Route>
             <Route path={'/Decor/PhotoZone'} element={<PhotoZone/>}></Route>
+            
         </Routes>
     </div>
   );
