@@ -16,14 +16,16 @@ function ArtDesign() {
                     <a href={'/ArtDesign/ArtMiami'} className={'desc-a'}>Проект Арт-Майами</a>
                 </div>
             </div>
+
             <div className={'item'}>
                 <a href={'/ArtDesign/ZHKMarshala'} className={'more-photo'}>
                     <img className={'item-img animation2'} src={imgZHK}/>
                 </a>
                 <div className={'desc animation'}>
-                    <a href={'/ArtDesign/ZHKMarshala'} className={'desc-a'}>Проект ЖК Маршал</a>
+                    <a href={'/ArtDesign/ZHKMarshala'} className={'desc-a'}>Генеральский лофт</a>
                 </div> 
             </div>
+
             <div className={'item'}>
                 <a href={'/ArtDesign/Arctica'} className={'more-photo'}>
                     <img className={'item-img animation2'} src={imgArctica}/>
@@ -32,6 +34,7 @@ function ArtDesign() {
                     <a href={'/ArtDesign/Arctica'} className={'desc-a'}>Проект АРКТИКА</a>
                 </div>
             </div>
+
             <div className={'item'}>
                 <a href={'/ArtDesign/SPB'} className={'more-photo'}>
                     <img className={'item-img animation2'} src={imgSPB}/>
